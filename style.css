@@ -1,0 +1,84 @@
+body{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    background: rgb(154,187,227);
+background: linear-gradient(229deg, rgba(154,187,227,0.3253676470588235) 3%, rgba(115,73,231,0.8463760504201681) 14%, rgba(135,141,245,1) 52%, rgba(156,159,236,0.9416141456582633) 75%, rgba(121,139,199,0.7679446778711485) 100%);
+}
+
+.heading {
+    position: fixed;
+    top: 10px;
+    margin: 10px auto;
+    font-size: 3rem;
+    color: #fff;
+    text-shadow: #fcff2e 2px 0 15px;
+}
+
+.frame{
+    position: fixed;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background: #2d2d2d;
+    color: #f6f6f6;
+    border-radius: 12px;
+    padding: 10px;
+    margin: 10px;
+    box-shadow: 5px 5px 10px #fff;
+}
+
+.controls button{
+    margin: 5px;
+    padding: 8px;
+    font-size: 14px;
+    font-weight: 300;
+    width: 110px;
+    border-radius: 5px;
+    outline: none;
+    border: none;
+    border: 1px solid white;
+}
+
+.controls button:hover{
+    background: transparent;
+    color: white;
+    
+}
+
+.stopwatch{
+    font-size: 10em;
+    font-family: monospace;
+    margin-top: 20px;
+}
+
+.laps{
+    color: rgb(223, 255, 223);
+    font-size: 20px;
+    font-weight: bold;
+    position: relative;
+    margin-top: 20px;
+    top: 200px;
+    width: 50vw;
+    overflow: auto; /*it is providing the scroll bar*/
+    max-height: 120px;
+    background: #494949;
+    border-radius: 12px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+ul{
+    margin: 0;
+    padding: 0;
+}
+
+ul li{
+    list-style: none;
+    padding: 10px 0;
+}
